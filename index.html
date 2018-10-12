@@ -5,12 +5,12 @@
     <title>renrongweb</title>
     <style>
     *{box-sizing:border-box;} /*border,padding까지 그 요소의 크기라고 해 줌.*/
-    body{margin:0; font-family:"Quicksand";}
-    .header{text-align:center; padding:32px;} /*div의 크기를 정하는 게 아니라 padding을 적용해서 넓이를 만든다*/
+    body{margin:0; font:22px "Hi Melody"; color:rgb(83, 71, 50); background:rgb(241, 236, 205); padding-bottom:100px;}
+    .header{text-align:center; padding:28px;} /*div의 크기를 정하는 게 아니라 padding을 적용해서 넓이를 만든다*/
     .row{
       display:flex; display:-ms-flexbox;
       flex-wrap:wrap; -ms-flex-wrap:wrap;
-      padding:0 16px;
+      padding:0 200px;
     }
     .column{
       flex:25%; -ms-flex:25%
@@ -44,11 +44,12 @@
     }
     @font-face {
       font-family:'Quicksand';
-      src:url("https://fonts.googleapis.com/css?family=Quicksand");
+      src:url("https://fonts.googleapis.com/css?family=Hi+Melody");
     }
     /*print는 인쇄물에 적용하는 것을 뜻하고,
     screen은 화면에 적용하는 것을 뜻한다.*/
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
   </head>
   <body>
     <div class="header"><h3>반응형 이미지 그리드</h3></div>
@@ -77,19 +78,6 @@
         <img src="images/15.jpg" alt="1" style="width:100%;">
         <img src="images/16.jpg" alt="1" style="width:100%;">
       </div>
-=======
-    <title>inyoung</title>
-    <style>
-    body,ul,ol,li{padding:0; margin:0;}
-    ul,ol,li{list-style-type:none;}
-    img{border:0;}
-    body{margin:0 auto;}
-    #header{font-size:50px;}
-    </style>
-  </head>
-  <body>
-    <div id=“header”>renrongweb
->>>>>>> f13983a1d2051dd7341b422c58b1a12537d24584
     </div>
   </body>
 </html>
