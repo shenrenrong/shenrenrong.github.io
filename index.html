@@ -2,6 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
+    <title></title>
+    <style>
+    *{box-sizing:border-box;} /*border,padding까지 그 요소의 크기라고 해 줌.*/
+    body{margin:0; font-family:'Quicksand';}
+    .header{text-align:center; padding:32px;}
+    .row{
+      display:flex; display:-ms-flexbox;
+      flex-wrap:wrap; -ms-flex-wrap:wrap;
+      padding:0 4px;
+    }
+    .column{
+      flex:25%; -ms-flex:25%
+      max-width:25%;
+      padding:0 4px;
+    }
+    .column img{
+      margin-top:8px;
+      vertical-align:middle;
+    }
+    @media screen and (max-width:900px){
+      .column{
+        -ms-flex:33.3;
+        flex:33.3%;
+        max-width:33.3%;
+      }
+    }
+    @media screen and (max-width:750px){
+      .column{
+        -ms-flex:50%;
+        flex:50%;
+        max-width:50%;
+      }
+    }
+    @media screen and (max-width:600px){
+      .column{
+        -ms-flex:100%;
+        flex:100%;
+        max-width:100%;
+      }
+    }
+    @font-face {
+      font-family:'Quicksand';
+      src:url("https://fonts.googleapis.com/css?family=Quicksand");
+    }
+    /*print는 인쇄물에 적용하는 것을 뜻하고,
+    screen은 화면에 적용하는 것을 뜻한다.*/
+    </style>
+  </head>
+  <body>
+    <div class="header"><h3>반응형 이미지 그리드</h3></div>
+    <div class="row">
+      <div class="column">
+        <img src="images/1.jpg" alt="1" style="width:100%;">
+        <img src="images/2.jpg" alt="1" style="width:100%;">
+        <img src="images/3.jpg" alt="1" style="width:100%;">
+        <img src="images/4.jpg" alt="1" style="width:100%;">
+      </div>
+      <div class="column">
+        <img src="images/5.jpg" alt="1" style="width:100%;">
+        <img src="images/6.jpg" alt="1" style="width:100%;">
+        <img src="images/7.jpg" alt="1" style="width:100%;">
+        <img src="images/8.jpg" alt="1" style="width:100%;">
+      </div>
+      <div class="column">
+        <img src="images/9.jpg" alt="1" style="width:100%;">
+        <img src="images/10.jpg" alt="1" style="width:100%;">
+        <img src="images/11.jpg" alt="1" style="width:100%;">
+        <img src="images/12.jpg" alt="1" style="width:100%;">
+      </div>
+      <div class="column">
+        <img src="images/13.jpg" alt="1" style="width:100%;">
+        <img src="images/14.jpg" alt="1" style="width:100%;">
+        <img src="images/15.jpg" alt="1" style="width:100%;">
+        <img src="images/16.jpg" alt="1" style="width:100%;">
+      </div>
+=======
     <title>inyoung</title>
     <style>
     body,ul,ol,li{padding:0; margin:0;}
@@ -13,6 +90,7 @@
   </head>
   <body>
     <div id=“header”>renrongweb
+>>>>>>> f13983a1d2051dd7341b422c58b1a12537d24584
     </div>
   </body>
 </html>
